@@ -184,20 +184,6 @@ tomli = {version = ">=1.0.0", markers = "python_version < \"3.11\""}
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "xmlschema"]
 
 [[package]]
-name = "pytest-asyncio"
-version = "0.20.2"
-description = "Pytest support for asyncio"
-category = "dev"
-optional = false
-python-versions = ">=3.7"
-
-[package.dependencies]
-pytest = ">=6.1.0"
-
-[package.extras]
-testing = ["coverage (>=6.2)", "hypothesis (>=5.7.1)", "flaky (>=3.5.0)", "mypy (>=0.931)", "pytest-trio (>=0.7.0)"]
-
-[[package]]
 name = "pytest-base-url"
 version = "2.0.0"
 description = "pytest plugin for URL based testing"
@@ -331,7 +317,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "cff0a84ab85f8ad29c87574c902ab42cd8f0fabf9ce13d3ff2c096194010f935"
+content-hash = "23ba2379961ab290d15b2323c89cbf9713c84ecc37c99c616530143dd8d6fe9d"
 
 [metadata.files]
 asgiref = []
@@ -353,7 +339,6 @@ pluggy = []
 pyee = []
 pyparsing = []
 pytest = []
-pytest-asyncio = []
 pytest-base-url = []
 pytest-django = []
 pytest-playwright = []
